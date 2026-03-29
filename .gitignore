@@ -1,0 +1,40 @@
+# --- Binários e Arquivos de Compilação ---
+*.hex
+*.elf
+*.bin
+*.o
+*.a
+*.ko
+*.so
+*.mod.c
+*.mod
+
+# --- Pastas de Build (Arduino IDE 2.0+ e Pro IDE) ---
+build/
+bin/
+out/
+
+# --- Arquivos de Cache e Temporários ---
+.sconsign.dblite
+*.swp
+*~
+.DS_Store
+
+# --- Configurações de IDEs (Opcional, mas recomendado) ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arduino IDE 1.8.x (Arquivos de preferência local)
+.lock-wst
+
+# --- Bibliotecas e Dependências Externas ---
+# Recomenda-se não subir as bibliotecas, mas sim listá-las num README
+# Descomente a linha abaixo se você usa o Arduino CLI ou Gerenciadores de Libs locais
+# libraries/
+
+# --- Logs ---
+*.log
